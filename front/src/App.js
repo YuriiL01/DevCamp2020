@@ -1,9 +1,10 @@
 // import logo from './logo.svg';
 import './App.css';
+import MainPageContainer from "./containers/MainPage";
 
 function App() {
   return (
-    <div>missAge</div>
+    <MainPageContainer />
   );
 }
 
