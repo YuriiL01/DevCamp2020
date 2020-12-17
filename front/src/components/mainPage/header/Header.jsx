@@ -5,9 +5,11 @@ import Profile from "./profile/Profile";
 function Header() {
     return (
         <>
-            <Logo />
-            <AddArticle />
-            <Profile />
+            <header>
+                <Logo />
+                <AddArticle />
+                <Profile />
+            </header>
         </>
     );
 }

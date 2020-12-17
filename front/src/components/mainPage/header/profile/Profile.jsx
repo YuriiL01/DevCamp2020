@@ -1,4 +1,4 @@
-import Menu from "./meny/Menu";
+import Menu from "./menu/Menu";
 
 function Profile() {
 
@@ -6,7 +6,7 @@ function Profile() {
       <>
           <div>
               {/*<img src="" alt=""/>*/}
-              Profile name
+              Profile img and name
           </div>
           <Menu />
       </>
