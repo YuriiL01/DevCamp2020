@@ -1,9 +1,13 @@
-const express = require('express')
-const app = express()
-const port = 3000
+require('dotenv').config()
+const app = require('express')()
+const port = process.env.SERVER_PORT
 
 app.get('/', (req, res) => {
     res.send('Social Network')
+})
+
+app.use( (err, res) => {
+        res.status(404).send('Wrong request!')
 })
 
 app.listen(port, () => {
